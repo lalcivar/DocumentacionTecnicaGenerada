@@ -1,0 +1,20 @@
+=============================================================
+ AUDITORÍA DE ESTRUCTURA Y ALUCINACIONES EN LENGUAJE: PYTHON
+=============================================================
+
+• Funciones detectadas en el código (65):
+  Close, OpenKey, QueryValueEx, __init__, __len__, no_proxy, seek, tell, test__parse_content_type_header, test_add_dict_to_cookiejar, test_bad_utf_like_encoding, test_bypass, test_bypass_no_proxy_keyword, test_dotted_netmask, test_empty_default_credentials_ignored, test_encoded, test_file, test_get_auth_from_url, test_get_encoding_from_headers, test_guess_by_bom, test_guess_filename_invalid, test_guess_filename_valid, test_invalid, test_invalid_unc_path, test_io_streams, test_is_filename, test_iter_slices, test_none, test_not_bypass, test_not_bypass_no_proxy_keyword, test_not_vulnerable_to_bad_url_parsing, test_parse_dict_header, test_parse_header_links, test_pragmas, test_precedence, test_prepend_scheme_if_needed, test_requote_uri_with_unquoted_percents, test_select_proxies, test_set_environ, test_set_environ_raises_exception, test_should_bypass_proxies, test_should_bypass_proxies_no_proxy, test_should_bypass_proxies_no_proxy_domain_boundary, test_should_bypass_proxies_pass_only_hostname, test_should_bypass_proxies_win_registry, test_should_bypass_proxies_win_registry_ProxyOverride_value, test_should_bypass_proxies_win_registry_bad_values, test_string, test_super_len_correctly_calculates_len_of_partially_read_file, test_super_len_handles_files_raising_weird_errors_in_tell, test_super_len_tell_ioerror, test_super_len_with__len__, test_super_len_with_fileno, test_super_len_with_no__len__, test_super_len_with_no_matches, test_super_len_with_tell, test_tarfile_member, test_to_native_string, test_unicode_is_ascii, test_unquote_unreserved, test_unzipped_paths_unchanged, test_urldefragauth, test_valid, test_works, test_zipped_paths_extracted
+
+✅ Funciones documentadas (0/65):
+  Ninguna
+
+⚠️ Funciones olvidadas / omitidas por el LLMs (65):
+  Close, OpenKey, QueryValueEx, __init__, __len__, no_proxy, seek, tell, test__parse_content_type_header, test_add_dict_to_cookiejar, test_bad_utf_like_encoding, test_bypass, test_bypass_no_proxy_keyword, test_dotted_netmask, test_empty_default_credentials_ignored, test_encoded, test_file, test_get_auth_from_url, test_get_encoding_from_headers, test_guess_by_bom, test_guess_filename_invalid, test_guess_filename_valid, test_invalid, test_invalid_unc_path, test_io_streams, test_is_filename, test_iter_slices, test_none, test_not_bypass, test_not_bypass_no_proxy_keyword, test_not_vulnerable_to_bad_url_parsing, test_parse_dict_header, test_parse_header_links, test_pragmas, test_precedence, test_prepend_scheme_if_needed, test_requote_uri_with_unquoted_percents, test_select_proxies, test_set_environ, test_set_environ_raises_exception, test_should_bypass_proxies, test_should_bypass_proxies_no_proxy, test_should_bypass_proxies_no_proxy_domain_boundary, test_should_bypass_proxies_pass_only_hostname, test_should_bypass_proxies_win_registry, test_should_bypass_proxies_win_registry_ProxyOverride_value, test_should_bypass_proxies_win_registry_bad_values, test_string, test_super_len_correctly_calculates_len_of_partially_read_file, test_super_len_handles_files_raising_weird_errors_in_tell, test_super_len_tell_ioerror, test_super_len_with__len__, test_super_len_with_fileno, test_super_len_with_no__len__, test_super_len_with_no_matches, test_super_len_with_tell, test_tarfile_member, test_to_native_string, test_unicode_is_ascii, test_unquote_unreserved, test_unzipped_paths_unchanged, test_urldefragauth, test_valid, test_works, test_zipped_paths_extracted
+
+🚨 Posibles alucinaciones detectadas (0):
+  (Nombres referenciados en texto como `fn()` que no existen en el código)
+  Ninguna alucinación detectada
+
+--------------------------------------------------
+📊 Tasa de cobertura estructural: 0.0%
+--------------------------------------------------

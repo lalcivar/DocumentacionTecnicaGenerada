@@ -1,0 +1,5 @@
+﻿Modelo,Solicitudes,"Tokens por solicitud, entrada / salida (media)",Costo total (USD),Costo por archivo (USD),Costo por 1 000 métodos (USD),Latencia media (s),THS (%),Uso recomendado
+Anthropic - Claude,30,12 180 / 6 195,"1,85","0,0615","0,75","57,79","1,23",Documentación general y pruebas técnicas
+Google - Gemini,30,8 700 / 3 694,"1,19","0,0396","0,48","33,51","0,43",Documentación general y pruebas técnicas
+Meta - Llama,30,8 453 / 4 902,"1,39","0,0463","0,57","29,37","0,73",Documentación general y pruebas técnicas
+OpenAI - ChatGPT,30,7 465 / 1 289,"0,68","0,0227","0,28","9,39","0,13",Documentación general y pruebas técnicas

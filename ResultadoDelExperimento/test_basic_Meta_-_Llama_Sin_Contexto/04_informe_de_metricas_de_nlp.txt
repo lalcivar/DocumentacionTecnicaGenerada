@@ -1,0 +1,30 @@
+================================================================================
+                     Informe de evaluación de métricas de PNL
+================================================================================
+• Modelo evaluado          : Meta - Llama
+• Tiempo de la evaluación  : 2026-10-11 13:56:55
+--------------------------------------------------------------------------------
+1. Metrica de superpocision lexica (BLEU)
+   - BLEU Score            : 0.00%
+
+2. Puntuaciones ROUGE (N-Grams / Subsecuencia común más larga)
+   - ROUGE-1 (Unigrams)    : 3.78%
+   - ROUGE-2 (Bigrams)     : 1.15%
+   - ROUGE-L (LCS)         : 2.79%
+
+3. Evaluación semántica profunda (BERTScore)
+   - Precision (P)         : 62.68%
+   - Recall (R)            : 55.32%
+   - BERTScore F1-Score    : 58.77%
+--------------------------------------------------------------------------------
+4. Referencia humana usada
+--------------------------------------------------------------------------------
+[test_provide_automatic_options_attr_disable]: Automatic options can be disabled by the view func attribute.
+
+[test_provide_automatic_options_attr_enable]: When default automatic options is disabled in config, it can still be
+enabled by the view function attribute.
+
+[test_provide_automatic_options_arg_disable]: Automatic options can be disabled by the route argument.
+
+[test_provide_automatic_options_method_disable]: Automatic options is ignored if the route handles options.
+================================================================================

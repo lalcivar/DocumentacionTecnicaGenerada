@@ -1,0 +1,2 @@
+REPORTE NLP - Google - Gemini (Hibrido_AST_Regex)
+Fallo en la generación de documentación. Métricas asignadas en 0.0%

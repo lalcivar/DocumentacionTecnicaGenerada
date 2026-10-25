@@ -1,0 +1,9 @@
+﻿modelo,condicion,solicitudes,metodos,latencia_media,latencia_de,latencia_mediana,latencia_p95,tokens_entrada,tokens_salida,tokens_razonamiento,Costo_por_token,costo_total,costo_por_archivo
+Anthropic - Claude,Docstrings,30,451,25.88,59.89,0.0,177.16,91366,79696,3487,0.00000379,0.6609,0.0441
+Anthropic - Claude,Javadoc,30,6,48.65,89.32,0.0,241.52,635632,152370,28585,0.00000268,2.1855,0.1457
+Google - Gemini,Docstrings,30,451,20.48,34.17,0.0,90.76,122791,76459,27111,0.00000311,0.7043,0.047
+Google - Gemini,Javadoc,30,6,26.31,47.4,0.0,112.02,571752,76927,28377,0.00000237,1.6051,0.107
+Meta - Llama,Docstrings,30,451,19.13,23.37,16.63,63.65,152014,99238,21721,0.00000330,0.8995,0.06
+Meta - Llama,Javadoc,30,6,24.69,27.5,19.92,78.9,350202,93897,29656,0.00000267,1.2638,0.0843
+OpenAI - ChatGPT,Docstrings,30,451,7.23,10.81,0.0,26.9,101595,27766,5952,0.00000273,0.3698,0.0247
+OpenAI - ChatGPT,Javadoc,30,6,7.9,10.46,0.0,31.23,343013,30914,10240,0.00000227,0.8715,0.0581

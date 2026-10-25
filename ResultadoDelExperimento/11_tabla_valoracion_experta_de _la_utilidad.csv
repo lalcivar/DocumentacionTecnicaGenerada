@@ -1,0 +1,11 @@
+Modelo,Lenguaje,Perfil de documentación,P1 (media ± DE),C1 (media ± DE),A1 (media ± DE),THS (%) (media ± DE)
+Google - Gemini,Python,Docstrings,4.67 ± 0.61,4.83 ± 0.40,4.67 ± 0.61,0.00 ± 0.00
+Google - Gemini,Java,Javadoc,4.67 ± 0.61,4.83 ± 0.40,4.67 ± 0.61,0.00 ± 0.00
+Anthropic - Claude,Python,Docstrings,4.50 ± 0.67,4.50 ± 0.67,4.50 ± 0.67,0.08 ± 0.28
+Anthropic - Claude,Java,Javadoc,4.67 ± 0.61,4.67 ± 0.61,4.67 ± 0.61,0.25 ± 0.50
+OpenAI - ChatGPT,Python,Docstrings,4.67 ± 0.61,4.67 ± 0.61,4.50 ± 0.67,0.00 ± 0.00
+OpenAI - ChatGPT,Java,Javadoc,4.50 ± 0.67,4.50 ± 0.67,4.50 ± 0.67,0.00 ± 0.00
+Meta - Llama,Python,Docstrings,4.67 ± 0.61,4.67 ± 0.61,4.67 ± 0.61,0.08 ± 0.28
+Meta - Llama,Java,Javadoc,4.50 ± 0.67,4.50 ± 0.67,4.50 ± 0.67,0.08 ± 0.28
+Línea Base,Python,Docstrings,4.83 ± 0.40,4.83 ± 0.40,4.83 ± 0.40,0.00 ± 0.00
+Línea Base,Java,Javadoc,5.00 ± 0.00,5.00 ± 0.00,5.00 ± 0.00,0.00 ± 0.00

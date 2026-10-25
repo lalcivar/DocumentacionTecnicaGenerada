@@ -1,0 +1,13 @@
+﻿Indicador,Línea base por plantillas (Sphinx/Javadoc),Arquitectura propuesta (orquestador + AST/Regex)
+Cobertura de documentación (%),"100,00","34,63"
+THS / Alucinaciones (%),"0,00","0,63"
+1. BLEU Score (0-100),"21,00","0,02"
+2. ROUGE-1 F1 (0-100),"38,20","4,13"
+2. ROUGE-2 F1 (0-100),"18,40","1,30"
+2. ROUGE-L F1 (0-100),"34,50","2,42"
+3. BERTScore - Precision (P) (0-100),"62,50","23,02"
+3. BERTScore - Recall (R) (0-100),"60,10","21,39"
+3. BERTScore - F1-Score (0-100),"61,20","22,14"
+"Valoración experta, Likert 1–5 (media ± DE)","1,82 ± 0,41","4,65 ± 0,38"
+Tiempo medio de procesamiento por archivo (s),"< 0,05","32,51"
+Costo directo por archivo (USD),"0,00","0,04252"

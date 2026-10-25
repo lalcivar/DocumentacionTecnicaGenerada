@@ -1,0 +1,20 @@
+=============================================================
+ AUDITORÍA DE ESTRUCTURA Y ALUCINACIONES EN LENGUAJE: PYTHON
+=============================================================
+
+• Funciones detectadas en el código (39):
+  __call__, __init__, __init_subclass__, _make_timedelta, add_ctx, app_context, async_to_sync, create_jinja_environment, create_url_adapter, dispatch_request, do_teardown_appcontext, do_teardown_request, ensure_sync, finalize_request, full_dispatch_request, get_send_file_max_age, handle_exception, handle_http_exception, handle_user_exception, log_exception, make_default_options_response, make_response, make_shell_context, open_instance_resource, open_resource, preprocess_request, process_response, raise_routing_exception, remove_ctx, request_context, run, send_static_file, test_cli_runner, test_client, test_request_context, update_template_context, url_for, wrapper, wsgi_app
+
+✅ Funciones documentadas (39/39):
+  __call__, __init__, __init_subclass__, _make_timedelta, add_ctx, app_context, async_to_sync, create_jinja_environment, create_url_adapter, dispatch_request, do_teardown_appcontext, do_teardown_request, ensure_sync, finalize_request, full_dispatch_request, get_send_file_max_age, handle_exception, handle_http_exception, handle_user_exception, log_exception, make_default_options_response, make_response, make_shell_context, open_instance_resource, open_resource, preprocess_request, process_response, raise_routing_exception, remove_ctx, request_context, run, send_static_file, test_cli_runner, test_client, test_request_context, update_template_context, url_for, wrapper, wsgi_app
+
+⚠️ Funciones olvidadas / omitidas por el LLMs (0):
+  Ninguna (Cobertura 100%)
+
+🚨 Posibles alucinaciones detectadas (10):
+  (Nombres referenciados en texto como `fn()` que no existen en el código)
+  SecureCookieSessionInterface, _find_error_handler, force_type, get_host, handle_url_build_error, inject_url_defaults, open, raise_any, send_from_directory, timedelta
+
+--------------------------------------------------
+📊 Tasa de cobertura estructural: 100.0%
+--------------------------------------------------

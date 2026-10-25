@@ -1,0 +1,20 @@
+=============================================================
+ AUDITORÍA DE ESTRUCTURA Y ALUCINACIONES EN LENGUAJE: PYTHON
+=============================================================
+
+• Funciones detectadas en el código (30):
+  __init__, __sklearn_tags__, _box_cox_optimize, _check_input, _check_inputs, _dense_fit, _fit, _handle_zeros_in_scale, _is_constant_feature, _n_features_out, _reset, _sparse_fit, _transform, _transform_col, _yeo_johnson_inverse_transform, _yeo_johnson_optimize, add_dummy_feature, binarize, fit, fit_transform, inverse_transform, maxabs_scale, minmax_scale, normalize, partial_fit, power_transform, quantile_transform, robust_scale, scale, transform
+
+✅ Funciones documentadas (1/30):
+  fit
+
+⚠️ Funciones olvidadas / omitidas por el LLMs (29):
+  __init__, __sklearn_tags__, _box_cox_optimize, _check_input, _check_inputs, _dense_fit, _fit, _handle_zeros_in_scale, _is_constant_feature, _n_features_out, _reset, _sparse_fit, _transform, _transform_col, _yeo_johnson_inverse_transform, _yeo_johnson_optimize, add_dummy_feature, binarize, fit_transform, inverse_transform, maxabs_scale, minmax_scale, normalize, partial_fit, power_transform, quantile_transform, robust_scale, scale, transform
+
+🚨 Posibles alucinaciones detectadas (0):
+  (Nombres referenciados en texto como `fn()` que no existen en el código)
+  Ninguna alucinación detectada
+
+--------------------------------------------------
+📊 Tasa de cobertura estructural: 3.3%
+--------------------------------------------------

@@ -1,0 +1,53 @@
+================================================================================
+                     Informe de evaluación de métricas de PNL
+================================================================================
+• Modelo evaluado          : Meta - Llama
+• Tiempo de la evaluación  : 2026-10-11 14:14:41
+--------------------------------------------------------------------------------
+1. Metrica de superpocision lexica (BLEU)
+   - BLEU Score            : 0.00%
+
+2. Puntuaciones ROUGE (N-Grams / Subsecuencia común más larga)
+   - ROUGE-1 (Unigrams)    : 10.78%
+   - ROUGE-2 (Bigrams)     : 1.44%
+   - ROUGE-L (LCS)         : 5.51%
+
+3. Evaluación semántica profunda (BERTScore)
+   - Precision (P)         : 64.30%
+   - Recall (R)            : 59.84%
+   - BERTScore F1-Score    : 61.99%
+--------------------------------------------------------------------------------
+4. Referencia humana usada
+--------------------------------------------------------------------------------
+Register an implementation of this interface to be notified when a
+{@link LauncherSession} is opened and closed.
+
+<p>A {@code LauncherSessionListener} can be registered programmatically with
+the {@link LauncherConfig.Builder#addLauncherSessionListeners LauncherConfig}
+passed to the
+{@link LauncherFactory#openSession(LauncherConfig) LauncherFactory} or
+automatically via Java's {@link java.util.ServiceLoader ServiceLoader}
+mechanism.
+
+<p>All methods in this class have empty <em>default</em> implementations.
+Subclasses may therefore override one or more of these methods to be notified
+of the selected events.
+
+<p>The methods declared in this interface are called by the {@link Launcher}
+or {@link LauncherSession} created via the {@link LauncherFactory}.
+
+@since 1.8
+@see LauncherSession
+@see LauncherConfig.Builder#addLauncherSessionListeners
+@see LauncherFactory
+
+No-op implementation of {@code LauncherSessionListener}
+
+Called when a launcher session was opened.
+
+@param session the opened session
+
+Called when a launcher session was closed.
+
+@param session the closed session
+================================================================================

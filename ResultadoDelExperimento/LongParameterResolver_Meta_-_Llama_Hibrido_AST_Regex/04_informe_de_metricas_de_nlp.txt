@@ -1,0 +1,31 @@
+================================================================================
+                     Informe de evaluación de métricas de PNL
+================================================================================
+• Modelo evaluado          : Meta - Llama
+• Tiempo de la evaluación  : 2026-10-11 14:18:54
+--------------------------------------------------------------------------------
+1. Metrica de superpocision lexica (BLEU)
+   - BLEU Score            : 0.00%
+
+2. Puntuaciones ROUGE (N-Grams / Subsecuencia común más larga)
+   - ROUGE-1 (Unigrams)    : 10.21%
+   - ROUGE-2 (Bigrams)     : 10.04%
+   - ROUGE-L (LCS)         : 10.21%
+
+3. Evaluación semántica profunda (BERTScore)
+   - Precision (P)         : 78.06%
+   - Recall (R)            : 60.33%
+   - BERTScore F1-Score    : 68.06%
+--------------------------------------------------------------------------------
+4. Referencia humana usada
+--------------------------------------------------------------------------------
+Example {@link ParameterResolver} that always resolves a {@link Long}
+parameter to {@code 42}.
+
+<p>This resolver also <em>attempts</em> to support generic parameter type
+declarations if the generic type is defined at the class level in a
+superclass or interface (extended or implemented by the test class) and
+is assignable from {@link Long}.
+
+@since 5.0
+================================================================================

@@ -1,0 +1,33 @@
+================================================================================
+                     Informe de evaluación de métricas de PNL
+================================================================================
+• Modelo evaluado          : Google - Gemini
+• Tiempo de la evaluación  : 2026-10-11 14:10:54
+--------------------------------------------------------------------------------
+1. Metrica de superpocision lexica (BLEU)
+   - BLEU Score            : 0.00%
+
+2. Puntuaciones ROUGE (N-Grams / Subsecuencia común más larga)
+   - ROUGE-1 (Unigrams)    : 0.90%
+   - ROUGE-2 (Bigrams)     : 0.00%
+   - ROUGE-L (LCS)         : 0.90%
+
+3. Evaluación semántica profunda (BERTScore)
+   - Precision (P)         : 62.67%
+   - Recall (R)            : 58.56%
+   - BERTScore F1-Score    : 60.54%
+--------------------------------------------------------------------------------
+4. Referencia humana usada
+--------------------------------------------------------------------------------
+Benchmark for the {@link CharMatcher} class.
+
+@author David Beaumont
+@author Kevin Bourrillion
+@author David Richter
+
+Provides samples on a random distribution derived from the web.
+
+<p>Adapted from data provided by Mark Davis.
+
+@author Christopher Swenson
+================================================================================

@@ -1,0 +1,36 @@
+================================================================================
+                     Informe de evaluación de métricas de PNL
+================================================================================
+• Modelo evaluado          : Google - Gemini
+• Tiempo de la evaluación  : 2026-10-11 14:03:05
+--------------------------------------------------------------------------------
+1. Metrica de superpocision lexica (BLEU)
+   - BLEU Score            : 0.00%
+
+2. Puntuaciones ROUGE (N-Grams / Subsecuencia común más larga)
+   - ROUGE-1 (Unigrams)    : 5.77%
+   - ROUGE-2 (Bigrams)     : 0.94%
+   - ROUGE-L (LCS)         : 3.43%
+
+3. Evaluación semántica profunda (BERTScore)
+   - Precision (P)         : 62.88%
+   - Recall (R)            : 58.61%
+   - BERTScore F1-Score    : 60.67%
+--------------------------------------------------------------------------------
+4. Referencia humana usada
+--------------------------------------------------------------------------------
+try/finally, in case other tests use this app for Blueprint tests.
+App global context processor
+Blueprint local context processor
+Setup endpoints for testing
+Register the blueprint
+Make sure the function is not in the jinja_env already
+Tests
+Setup routes for testing
+Setup routes for testing
+before first request
+first request
+second request
+Register app-wide url defaults and preprocessor on blueprint
+Register route rules at the app level
+================================================================================

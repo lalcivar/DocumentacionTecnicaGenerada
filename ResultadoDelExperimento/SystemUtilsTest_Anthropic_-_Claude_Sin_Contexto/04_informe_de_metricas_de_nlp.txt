@@ -1,0 +1,49 @@
+================================================================================
+                     Informe de evaluación de métricas de PNL
+================================================================================
+• Modelo evaluado          : Anthropic - Claude
+• Tiempo de la evaluación  : 2026-10-11 13:10:37
+--------------------------------------------------------------------------------
+1. Metrica de superpocision lexica (BLEU)
+   - BLEU Score            : 0.00%
+
+2. Puntuaciones ROUGE (N-Grams / Subsecuencia común más larga)
+   - ROUGE-1 (Unigrams)    : 4.46%
+   - ROUGE-2 (Bigrams)     : 0.89%
+   - ROUGE-L (LCS)         : 3.03%
+
+3. Evaluación semántica profunda (BERTScore)
+   - Precision (P)         : 60.79%
+   - Recall (R)            : 56.69%
+   - BERTScore F1-Score    : 58.67%
+--------------------------------------------------------------------------------
+4. Referencia humana usada
+--------------------------------------------------------------------------------
+Tests {@link SystemUtils}.
+
+Only limited testing can be performed.
+
+Returns the value of the SystemUtils.IS_JAVA_X field for the versions >= 9.
+
+Returns the last supported version with the SystemUtils.IS_JAVA_X fields.
+
+Assumes no security manager exists.
+
+Assumes no security manager exists.
+
+Assumes no security manager exists.
+
+Assumes no security manager exists.
+
+Assumes no security manager exists.
+
+Assumes no security manager exists.
+
+Assumes no security manager exists.
+
+Assumes no security manager exists.
+
+Assumes no security manager exists.
+
+Assumes no security manager exists.
+================================================================================

@@ -1,0 +1,70 @@
+================================================================================
+                     Informe de evaluación de métricas de PNL
+================================================================================
+• Modelo evaluado          : Meta - Llama
+• Tiempo de la evaluación  : 2026-10-11 14:28:18
+--------------------------------------------------------------------------------
+1. Metrica de superpocision lexica (BLEU)
+   - BLEU Score            : 0.00%
+
+2. Puntuaciones ROUGE (N-Grams / Subsecuencia común más larga)
+   - ROUGE-1 (Unigrams)    : 13.84%
+   - ROUGE-2 (Bigrams)     : 6.79%
+   - ROUGE-L (LCS)         : 8.56%
+
+3. Evaluación semántica profunda (BERTScore)
+   - Precision (P)         : 64.42%
+   - Recall (R)            : 60.58%
+   - BERTScore F1-Score    : 62.44%
+--------------------------------------------------------------------------------
+4. Referencia humana usada
+--------------------------------------------------------------------------------
+[TestGetEnvironProxies]: Ensures that IP addresses are correctly matches with ranges
+in no_proxy variable.
+
+[test_requote_uri_with_unquoted_percents]: See: https://github.com/psf/requests/issues/2356
+
+[test_select_proxies]: Make sure we can select per-host proxies correctly.
+
+[test_should_bypass_proxies]: Tests for function should_bypass_proxies to check if proxy
+can be bypassed or not
+
+[test_should_bypass_proxies_pass_only_hostname]: The proxy_bypass function should be called with a hostname or IP without
+a port number or auth credentials.
+
+[test_add_dict_to_cookiejar]: Ensure add_dict_to_cookiejar works for
+non-RequestsCookieJar CookieJars
+
+[test_should_bypass_proxies_no_proxy]: Tests for function should_bypass_proxies to check if proxy
+can be bypassed or not using the 'no_proxy' argument
+
+[test_should_bypass_proxies_no_proxy_domain_boundary]: Ensure no_proxy matching respects domain boundaries and does not
+greedily match domains that merely endswith the no_proxy entry.
+See CPython bpo-39057.
+
+[test_should_bypass_proxies_win_registry]: Tests for function should_bypass_proxies to check if proxy
+can be bypassed or not with Windows registry settings
+
+[test_should_bypass_proxies_win_registry_bad_values]: Tests for function should_bypass_proxies to check if proxy
+can be bypassed or not with Windows invalid registry settings.
+
+[test_set_environ]: Tests set_environ will set environ values and will restore the environ.
+
+[test_set_environ_raises_exception]: Tests set_environ will raise exceptions in context when the
+value parameter is None.
+
+[test_should_bypass_proxies_win_registry_ProxyOverride_value]: Tests for function should_bypass_proxies to check if proxy
+can be bypassed or not with Windows ProxyOverride registry value ending with a semicolon.
+
+[test_io_streams]: Ensures that we properly deal with different kinds of IO streams.
+
+[test_super_len_correctly_calculates_len_of_partially_read_file]: Ensure that we handle partially consumed file like objects.
+
+[test_super_len_handles_files_raising_weird_errors_in_tell]: If tell() raises errors, assume the cursor is at position zero.
+
+[test_super_len_tell_ioerror]: Ensure that if tell gives an IOError super_len doesn't fail
+
+[test_super_len_with_no_matches]: Ensure that objects without any length methods default to 0
+
+[test_empty_default_credentials_ignored]: Empty default credentials should not be returned.
+================================================================================

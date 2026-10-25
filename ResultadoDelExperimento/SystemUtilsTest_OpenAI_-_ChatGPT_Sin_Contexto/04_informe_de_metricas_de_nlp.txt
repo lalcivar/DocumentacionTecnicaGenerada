@@ -1,0 +1,49 @@
+================================================================================
+                     Informe de evaluación de métricas de PNL
+================================================================================
+• Modelo evaluado          : OpenAI - ChatGPT
+• Tiempo de la evaluación  : 2026-10-11 13:11:17
+--------------------------------------------------------------------------------
+1. Metrica de superpocision lexica (BLEU)
+   - BLEU Score            : 0.00%
+
+2. Puntuaciones ROUGE (N-Grams / Subsecuencia común más larga)
+   - ROUGE-1 (Unigrams)    : 4.97%
+   - ROUGE-2 (Bigrams)     : 1.31%
+   - ROUGE-L (LCS)         : 3.93%
+
+3. Evaluación semántica profunda (BERTScore)
+   - Precision (P)         : 59.86%
+   - Recall (R)            : 54.14%
+   - BERTScore F1-Score    : 56.86%
+--------------------------------------------------------------------------------
+4. Referencia humana usada
+--------------------------------------------------------------------------------
+Tests {@link SystemUtils}.
+
+Only limited testing can be performed.
+
+Returns the value of the SystemUtils.IS_JAVA_X field for the versions >= 9.
+
+Returns the last supported version with the SystemUtils.IS_JAVA_X fields.
+
+Assumes no security manager exists.
+
+Assumes no security manager exists.
+
+Assumes no security manager exists.
+
+Assumes no security manager exists.
+
+Assumes no security manager exists.
+
+Assumes no security manager exists.
+
+Assumes no security manager exists.
+
+Assumes no security manager exists.
+
+Assumes no security manager exists.
+
+Assumes no security manager exists.
+================================================================================

@@ -1,0 +1,20 @@
+=============================================================
+ AUDITORÍA DE ESTRUCTURA Y ALUCINACIONES EN LENGUAJE: PYTHON
+=============================================================
+
+• Funciones detectadas en el código (43):
+  _parse_content_type_header, _validate_header_part, add_dict_to_cookiejar, address_in_network, atomic_open, check_header_validity, default_headers, default_user_agent, dict_from_cookiejar, dict_to_sequence, dotted_netmask, extract_zipped_paths, from_key_val_list, get_auth_from_url, get_encoding_from_headers, get_encodings_from_content, get_environ_proxies, get_netrc_auth, get_proxy, get_unicode_from_response, guess_filename, guess_json_utf, is_ipv4_address, is_valid_cidr, iter_slices, parse_dict_header, parse_header_links, parse_list_header, prepend_scheme_if_needed, proxy_bypass, proxy_bypass_registry, requote_uri, resolve_proxies, rewind_body, select_proxy, set_environ, should_bypass_proxies, stream_decode_response_unicode, super_len, to_key_val_list, unquote_header_value, unquote_unreserved, urldefragauth
+
+✅ Funciones documentadas (0/43):
+  Ninguna
+
+⚠️ Funciones olvidadas / omitidas por el LLMs (43):
+  _parse_content_type_header, _validate_header_part, add_dict_to_cookiejar, address_in_network, atomic_open, check_header_validity, default_headers, default_user_agent, dict_from_cookiejar, dict_to_sequence, dotted_netmask, extract_zipped_paths, from_key_val_list, get_auth_from_url, get_encoding_from_headers, get_encodings_from_content, get_environ_proxies, get_netrc_auth, get_proxy, get_unicode_from_response, guess_filename, guess_json_utf, is_ipv4_address, is_valid_cidr, iter_slices, parse_dict_header, parse_header_links, parse_list_header, prepend_scheme_if_needed, proxy_bypass, proxy_bypass_registry, requote_uri, resolve_proxies, rewind_body, select_proxy, set_environ, should_bypass_proxies, stream_decode_response_unicode, super_len, to_key_val_list, unquote_header_value, unquote_unreserved, urldefragauth
+
+🚨 Posibles alucinaciones detectadas (0):
+  (Nombres referenciados en texto como `fn()` que no existen en el código)
+  Ninguna alucinación detectada
+
+--------------------------------------------------
+📊 Tasa de cobertura estructural: 0.0%
+--------------------------------------------------

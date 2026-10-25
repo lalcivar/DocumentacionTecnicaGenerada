@@ -1,0 +1,61 @@
+================================================================================
+                     Informe de evaluación de métricas de PNL
+================================================================================
+• Modelo evaluado          : OpenAI - ChatGPT
+• Tiempo de la evaluación  : 2026-10-11 12:53:04
+--------------------------------------------------------------------------------
+1. Metrica de superpocision lexica (BLEU)
+   - BLEU Score            : 0.00%
+
+2. Puntuaciones ROUGE (N-Grams / Subsecuencia común más larga)
+   - ROUGE-1 (Unigrams)    : 5.54%
+   - ROUGE-2 (Bigrams)     : 0.46%
+   - ROUGE-L (LCS)         : 3.92%
+
+3. Evaluación semántica profunda (BERTScore)
+   - Precision (P)         : 64.72%
+   - Recall (R)            : 58.03%
+   - BERTScore F1-Score    : 61.19%
+--------------------------------------------------------------------------------
+4. Referencia humana usada
+--------------------------------------------------------------------------------
+Tests for methods of {@link StringUtils}
+which been moved to their own test classes.
+
+Tests {@code appendIfMissing}.
+
+Tests {@code appendIfMissingIgnoreCase}.
+
+A sanity check for {@link StringUtils#EMPTY}.
+
+Tests LANG-858.
+
+Test for {@link StringUtils#isAllLowerCase(CharSequence)}.
+
+Test for {@link StringUtils#isAllLowerCase(CharSequence)} with supplementary code points.
+
+Test for {@link StringUtils#isAllUpperCase(CharSequence)}.
+
+Test for {@link StringUtils#isAllUpperCase(CharSequence)} with supplementary code points.
+
+Test for {@link StringUtils#isMixedCase(CharSequence)}.
+
+Test for {@link StringUtils#isMixedCase(CharSequence)} with supplementary code points.
+
+Tests {@code prependIfMissing}.
+
+Tests {@code prependIfMissingIgnoreCase}.
+
+Test method for 'StringUtils.replaceEach(String, String[], String[])'
+
+Test method for 'StringUtils.replaceEachRepeatedly(String, String[], String[])'
+
+Tests {@link StringUtils#toEncodedString(byte[], Charset)}
+
+@see StringUtils#toEncodedString(byte[], Charset)
+
+Tests {@link StringUtils#toString(byte[], String)}
+
+@throws UnsupportedEncodingException because the method under test max throw it
+@see StringUtils#toString(byte[], String)
+================================================================================

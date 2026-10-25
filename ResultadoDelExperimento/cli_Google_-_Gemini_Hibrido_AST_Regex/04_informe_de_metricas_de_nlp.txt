@@ -1,0 +1,175 @@
+================================================================================
+                     Informe de evaluación de métricas de PNL
+================================================================================
+• Modelo evaluado          : Google - Gemini
+• Tiempo de la evaluación  : 2026-10-11 13:37:24
+--------------------------------------------------------------------------------
+1. Metrica de superpocision lexica (BLEU)
+   - BLEU Score            : 0.01%
+
+2. Puntuaciones ROUGE (N-Grams / Subsecuencia común más larga)
+   - ROUGE-1 (Unigrams)    : 17.08%
+   - ROUGE-2 (Bigrams)     : 2.89%
+   - ROUGE-L (LCS)         : 7.57%
+
+3. Evaluación semántica profunda (BERTScore)
+   - Precision (P)         : 67.33%
+   - Recall (R)            : 65.80%
+   - BERTScore F1-Score    : 66.55%
+--------------------------------------------------------------------------------
+4. Referencia humana usada
+--------------------------------------------------------------------------------
+[NoAppException]: Raised if an application cannot be found or loaded.
+
+[find_best_app]: Given a module instance this tries to find the best possible
+application in the module or raises an exception.
+
+[_called_with_wrong_args]: Check whether calling a function raised a ``TypeError`` because
+the call failed or because something in the factory raised the
+error.
+
+:param f: The function that was called.
+:return: ``True`` if the call failed.
+
+[find_app_by_string]: Check if the given string is a variable name or a function. Call
+a function to get the app instance, or return the variable directly.
+
+[prepare_import]: Given a filename this will try to calculate the python path, add it
+to the search path and return the actual module name that is expected.
+
+[ScriptInfo]: Helper object to deal with Flask applications.  This is usually not
+necessary to interface with as it's used internally in the dispatching
+to click.  In future versions of Flask this object will most likely play
+a bigger role.  Typically it's created automatically by the
+:class:`FlaskGroup` but you can also manually create it and pass it
+onwards as click object.
+
+.. versionchanged:: 3.1
+    Added the ``load_dotenv_defaults`` parameter and attribute.
+
+[with_appcontext]: Wraps a callback so that it's guaranteed to be executed with the
+script's application context.
+
+Custom commands (and their options) registered under ``app.cli`` or
+``blueprint.cli`` will always have an app context available, this
+decorator is not required in that case.
+
+.. versionchanged:: 2.2
+    The app context is active for subcommands as well as the
+    decorated callback. The app context is always available to
+    ``app.cli`` command and parameter callbacks.
+
+[AppGroup]: This works similar to a regular click :class:`~click.Group` but it
+changes the behavior of the :meth:`command` decorator so that it
+automatically wraps the functions in :func:`with_appcontext`.
+
+Not to be confused with :class:`FlaskGroup`.
+
+[FlaskGroup]: Special subclass of the :class:`AppGroup` group that supports
+loading more commands from the configured Flask app.  Normally a
+developer does not have to interface with this class but there are
+some very advanced use cases for which it makes sense to create an
+instance of this. see :ref:`custom-scripts`.
+
+:param add_default_commands: if this is True then the default run and
+    shell commands will be added.
+:param add_version_option: adds the ``--version`` option.
+:param create_app: an optional callback that is passed the script info and
+    returns the loaded app.
+:param load_dotenv: Load the nearest :file:`.env` and :file:`.flaskenv`
+    files to set environment variables. Will also change the working
+    directory to the directory containing the first file found.
+:param set_debug_flag: Set the app's debug flag.
+
+.. versionchanged:: 3.1
+    ``-e path`` takes precedence over default ``.env`` and ``.flaskenv`` files.
+
+.. versionchanged:: 2.2
+    Added the ``-A/--app``, ``--debug/--no-debug``, ``-e/--env-file`` options.
+
+.. versionchanged:: 2.2
+    An app context is pushed when running ``app.cli`` commands, so
+    ``@with_appcontext`` is no longer required for those commands.
+
+.. versionchanged:: 1.0
+    If installed, python-dotenv will be used to load environment variables
+    from :file:`.env` and :file:`.flaskenv` files.
+
+[_path_is_ancestor]: Take ``other`` and remove the length of ``path`` from it. Then join it
+to ``path``. If it is the original value, ``path`` is an ancestor of
+``other``.
+
+[load_dotenv]: Load "dotenv" files to set environment variables. A given path takes
+precedence over ``.env``, which takes precedence over ``.flaskenv``. After
+loading and combining these files, values are only set if the key is not
+already set in ``os.environ``.
+
+This is a no-op if `python-dotenv`_ is not installed.
+
+.. _python-dotenv: https://github.com/theskumar/python-dotenv#readme
+
+:param path: Load the file at this location.
+:param load_defaults: Search for and load the default ``.flaskenv`` and
+    ``.env`` files.
+:return: ``True`` if at least one env var was loaded.
+
+.. versionchanged:: 3.1
+    Added the ``load_defaults`` parameter. A given path takes precedence
+    over default files.
+
+.. versionchanged:: 2.0
+    The current directory is not changed to the location of the
+    loaded file.
+
+.. versionchanged:: 2.0
+    When loading the env files, set the default encoding to UTF-8.
+
+.. versionchanged:: 1.1.0
+    Returns ``False`` when python-dotenv is not installed, or when
+    the given path isn't a file.
+
+.. versionadded:: 1.0
+
+[show_server_banner]: Show extra startup messages the first time the server is run,
+ignoring the reloader.
+
+[CertParamType]: Click option type for the ``--cert`` option. Allows either an
+existing file, the string ``'adhoc'``, or an import for a
+:class:`~ssl.SSLContext` object.
+
+[_validate_key]: The ``--key`` option must be specified when ``--cert`` is a file.
+Modifies the ``cert`` param to be a ``(cert, key)`` pair if needed.
+
+[SeparatedPathType]: Click option type that accepts a list of values separated by the
+OS's path separator (``:``, ``;`` on Windows). Each value is
+validated as a :class:`click.Path` type.
+
+[run_command]: Run a local development server.
+
+This server is for development purposes only. It does not provide
+the stability, security, or performance of production WSGI servers.
+
+The reloader and debugger are enabled by default with the '--debug'
+option.
+
+[shell_command]: Run an interactive Python shell in the context of a given
+Flask application.  The application will populate the default
+namespace of this shell according to its configuration.
+
+This is useful for executing small snippets of management code
+without having to manually configure the application.
+
+[routes_command]: Show all registered routes with endpoints and methods.
+
+[load_app]: Loads the Flask app (if not yet loaded) and returns it.  Calling
+this multiple times will just result in the already loaded app to
+be returned.
+
+[command]: This works exactly like the method of the same name on a regular
+:class:`click.Group` but it wraps callbacks in :func:`with_appcontext`
+unless it's disabled by passing ``with_appcontext=False``.
+
+[group]: This works exactly like the method of the same name on a regular
+:class:`click.Group` but it defaults the group class to
+:class:`AppGroup`.
+================================================================================

@@ -1,0 +1,13 @@
+﻿Métrica,χ² (gl = 3),p global,W de Kendall,Comparación (modelo A vs. modelo B),p,r,Resultado
+F1 de BERTScore,"9,78","0,020","0,109",Anthropic - Claude vs. Google - Gemini,"0,508","0,21",Sin diferencia significativa
+,,,,Anthropic - Claude vs. Meta - Llama,"0,008","0,62",Sin diferencia significativa
+,,,,Anthropic - Claude vs. OpenAI - ChatGPT,"0,136","0,43",Sin diferencia significativa
+ROUGE,"17,63","< 0,001","0,196",Anthropic - Claude vs. Google - Gemini,"0,721","0,11",Sin diferencia significativa
+,,,,Anthropic - Claude vs. Meta - Llama,"0,005","0,66",Diferencia significativa
+,,,,Anthropic - Claude vs. OpenAI - ChatGPT,"0,034","0,61",Sin diferencia significativa
+BLEU,"19,55","< 0,001","0,217",Anthropic - Claude vs. Google - Gemini,"0,203","0,40",Sin diferencia significativa
+,,,,Anthropic - Claude vs. Meta - Llama,"< 0,001","0,79",Diferencia significativa
+,,,,Anthropic - Claude vs. OpenAI - ChatGPT,"0,012","0,72",Sin diferencia significativa
+Alucinaciones - THS,"14,52","0,002","0,161",Anthropic - Claude vs. Google - Gemini,"0,026","0,90",Sin diferencia significativa
+,,,,Anthropic - Claude vs. Meta - Llama,"0,457","0,19",Sin diferencia significativa
+,,,,Anthropic - Claude vs. OpenAI - ChatGPT,"0,018","0,89",Sin diferencia significativa

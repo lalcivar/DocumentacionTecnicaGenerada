@@ -1,0 +1,20 @@
+=============================================================
+ AUDITORÍA DE ESTRUCTURA Y ALUCINACIONES EN LENGUAJE: JAVA
+=============================================================
+
+• Funciones detectadas en el código (2):
+  resolveParameter, supportsParameter
+
+✅ Funciones documentadas (0/2):
+  Ninguna
+
+⚠️ Funciones olvidadas / omitidas por el LLMs (2):
+  resolveParameter, supportsParameter
+
+🚨 Posibles alucinaciones detectadas (0):
+  (Nombres referenciados en texto como `fn()` que no existen en el código)
+  Ninguna alucinación detectada
+
+--------------------------------------------------
+📊 Tasa de cobertura estructural: 0.0%
+--------------------------------------------------

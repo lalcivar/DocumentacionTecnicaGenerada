@@ -1,0 +1,82 @@
+================================================================================
+                     Informe de evaluación de métricas de PNL
+================================================================================
+• Modelo evaluado          : Anthropic - Claude
+• Tiempo de la evaluación  : 2026-10-11 12:37:14
+--------------------------------------------------------------------------------
+1. Metrica de superpocision lexica (BLEU)
+   - BLEU Score            : 0.00%
+
+2. Puntuaciones ROUGE (N-Grams / Subsecuencia común más larga)
+   - ROUGE-1 (Unigrams)    : 7.01%
+   - ROUGE-2 (Bigrams)     : 2.34%
+   - ROUGE-L (LCS)         : 4.11%
+
+3. Evaluación semántica profunda (BERTScore)
+   - Precision (P)         : 64.20%
+   - Recall (R)            : 63.70%
+   - BERTScore F1-Score    : 63.95%
+--------------------------------------------------------------------------------
+4. Referencia humana usada
+--------------------------------------------------------------------------------
+Tests {@link NumberUtils}.
+
+Test for {@link NumberUtils#toDouble(BigDecimal)}
+
+Test for {@link NumberUtils#toDouble(BigDecimal, double)}
+
+LANG-1646: Support the requested Number type (Long, Float, Double) of valid zero input.
+
+Tests isCreatable(String) and tests that createNumber(String) returns a valid number iff isCreatable(String) returns false.
+
+Tests isCreatable(String) and tests that createNumber(String) returns a valid number iff isCreatable(String) returns false.
+
+Tests https://issues.apache.org/jira/browse/LANG-1729 See https://bugs.openjdk.org/browse/JDK-8326627 <blockquote>From
+https://docs.oracle.com/javase%2F9%2Fdocs%2Fapi%2F%2F/java/lang/Float.html#valueOf-java.lang.String-,
+https://docs.oracle.com/javase/specs/jls/se8/html/jls-3.html#jls-3.10.2, and https://docs.oracle.com/javase/specs/jls/se8/html/jls-3.html#jls-Digits,
+fullwidth Unicode digits are not applicable. Moved to JDK as an enhancement.</blockquote>
+
+Tests <a href="https://issues.apache.org/jira/browse/LANG-1821">LANG-1821</a>.
+
+Test for {@link NumberUtils#createNumber(String)}
+
+Test for {@link NumberUtils#toDouble(String)}.
+
+Test for {@link NumberUtils#toDouble(String, double)}.
+
+Test for {@link NumberUtils#toByte(String)}.
+
+Test for {@link NumberUtils#toByte(String, byte)}.
+
+Test for {@link NumberUtils#toFloat(String)}.
+
+Test for {@link NumberUtils#toFloat(String, float)}.
+
+Test for {@link NumberUtils#toInt(String)}.
+
+Test for {@link NumberUtils#toInt(String, int)}.
+
+Test for {@link NumberUtils#toLong(String)}.
+
+Test for {@link NumberUtils#toLong(String, long)}.
+
+Test for {@link NumberUtils#toScaledBigDecimal(BigDecimal)}.
+
+Test for {@link NumberUtils#toScaledBigDecimal(BigDecimal, int, RoundingMode)}.
+
+Test for {@link NumberUtils#toScaledBigDecimal(Double)}.
+
+Test for {@link NumberUtils#toScaledBigDecimal(Double, int, RoundingMode)}.
+
+Test for {@link NumberUtils#toScaledBigDecimal(Float)}.
+
+Test for {@link NumberUtils#toScaledBigDecimal(Float, int, RoundingMode)}.
+
+Test for {@link NumberUtils#toScaledBigDecimal(Double)}.
+
+Test for {@link NumberUtils#toScaledBigDecimal(Double, int, RoundingMode)}.
+
+Test for {@link NumberUtils#toShort(String)}.
+
+Test for {@link NumberUtils#toShort(String, short)}.
+================================================================================

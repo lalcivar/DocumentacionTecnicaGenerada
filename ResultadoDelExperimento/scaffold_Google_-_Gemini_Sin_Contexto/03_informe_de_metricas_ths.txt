@@ -1,0 +1,20 @@
+=============================================================
+ AUDITORÍA DE ESTRUCTURA Y ALUCINACIONES EN LENGUAJE: PYTHON
+=============================================================
+
+• Funciones detectadas en el código (32):
+  __init__, __repr__, _check_setup_finished, _endpoint_from_view_func, _find_package_path, _get_exc_class_and_code, _method_route, add_url_rule, after_request, before_request, context_processor, decorator, delete, endpoint, errorhandler, find_package, get, has_static_folder, jinja_loader, patch, post, put, query, register_error_handler, route, setupmethod, static_folder, static_url_path, teardown_request, url_defaults, url_value_preprocessor, wrapper_func
+
+✅ Funciones documentadas (21/32):
+  __init__, _check_setup_finished, _endpoint_from_view_func, _find_package_path, after_request, before_request, context_processor, delete, endpoint, errorhandler, find_package, get, post, put, route, setupmethod, static_folder, static_url_path, teardown_request, url_defaults, url_value_preprocessor
+
+⚠️ Funciones olvidadas / omitidas por el LLMs (11):
+  __repr__, _get_exc_class_and_code, _method_route, add_url_rule, decorator, has_static_folder, jinja_loader, patch, query, register_error_handler, wrapper_func
+
+🚨 Posibles alucinaciones detectadas (0):
+  (Nombres referenciados en texto como `fn()` que no existen en el código)
+  Ninguna alucinación detectada
+
+--------------------------------------------------
+📊 Tasa de cobertura estructural: 65.6%
+--------------------------------------------------

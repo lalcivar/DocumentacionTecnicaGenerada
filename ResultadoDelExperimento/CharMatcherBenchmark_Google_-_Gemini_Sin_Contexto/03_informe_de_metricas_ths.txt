@@ -1,0 +1,20 @@
+=============================================================
+ AUDITORÍA DE ESTRUCTURA Y ALUCINACIONES EN LENGUAJE: JAVA
+=============================================================
+
+• Funciones detectadas en el código (15):
+  BitSet, CharSamples, Random, StringBuilder, character, checkString, matches, nextCodePoint, populateChars1, populateChars2, populateProb1, populateProb2, randomCharFrom, setUp, trimAndCollapseFromString
+
+✅ Funciones documentadas (6/15):
+  CharSamples, checkString, matches, nextCodePoint, setUp, trimAndCollapseFromString
+
+⚠️ Funciones olvidadas / omitidas por el LLMs (9):
+  BitSet, Random, StringBuilder, character, populateChars1, populateChars2, populateProb1, populateProb2, randomCharFrom
+
+🚨 Posibles alucinaciones detectadas (1):
+  (Nombres referenciados en texto como `fn()` que no existen en el código)
+  precomputed
+
+--------------------------------------------------
+📊 Tasa de cobertura estructural: 40.0%
+--------------------------------------------------

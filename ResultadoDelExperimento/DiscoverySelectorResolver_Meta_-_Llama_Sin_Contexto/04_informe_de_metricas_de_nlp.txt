@@ -1,0 +1,23 @@
+================================================================================
+                     Informe de evaluación de métricas de PNL
+================================================================================
+• Modelo evaluado          : Meta - Llama
+• Tiempo de la evaluación  : 2026-10-11 14:12:14
+--------------------------------------------------------------------------------
+1. Metrica de superpocision lexica (BLEU)
+   - BLEU Score            : 0.00%
+
+2. Puntuaciones ROUGE (N-Grams / Subsecuencia común más larga)
+   - ROUGE-1 (Unigrams)    : 0.81%
+   - ROUGE-2 (Bigrams)     : 0.54%
+   - ROUGE-L (LCS)         : 0.81%
+
+3. Evaluación semántica profunda (BERTScore)
+   - Precision (P)         : 72.72%
+   - Recall (R)            : 45.89%
+   - BERTScore F1-Score    : 56.27%
+--------------------------------------------------------------------------------
+4. Referencia humana usada
+--------------------------------------------------------------------------------
+* @since 1.8
+================================================================================

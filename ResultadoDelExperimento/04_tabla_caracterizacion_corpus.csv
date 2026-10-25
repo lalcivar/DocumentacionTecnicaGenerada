@@ -1,0 +1,8 @@
+﻿Ecosistema,Repositorio,Versión (etiqueta),Licencia,Archivos,LOC,Métodos,Decoradores / anotaciones,Funciones anidadas / clases internas
+Java,apache/commons-lang,3.14.0 (rel/commons-lang-3.14.0),Apache 2.0,5,14831,351,628,13
+Python,pallets/flask,3.0.0 (3.0.0),BSD-3-Clause,5,6644,535,313,351
+Java,google/guava,33.0.0-jre (v33.0.0),Apache 2.0,5,18039,898,1081,113
+Java,junit-team/junit5,5.10.1 (r5.10.1),EPL 2.0,5,306,6,11,8
+Python,psf/requests,2.31.0 (v2.31.0),Apache 2.0,5,4491,209,73,127
+Python,scikit-learn/scikit-learn,1.4.0 (1.4.0),BSD-3-Clause,5,17527,451,254,74
+Total,6 repositorios,,,30,61838,2450,2360,686

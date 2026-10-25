@@ -1,0 +1,20 @@
+=============================================================
+ AUDITORÍA DE ESTRUCTURA Y ALUCINACIONES EN LENGUAJE: PYTHON
+=============================================================
+
+• Funciones detectadas en el código (31):
+  _check_set_wise_labels, _check_targets, _check_zero_division, _log_loss, _one_hot_encoding_binary_target, _one_hot_encoding_multiclass_target, _prf_divide, _validate_binary_probabilistic_prediction, _validate_multiclass_probabilistic_prediction, _warn_prf, accuracy_score, balanced_accuracy_score, brier_score_loss, class_likelihood_ratios, classification_report, cohen_kappa_score, confusion_matrix, d2_brier_score, d2_log_loss_score, f1_score, fbeta_score, hamming_loss, hinge_loss, jaccard_score, log_loss, matthews_corrcoef, multilabel_confusion_matrix, precision_recall_fscore_support, precision_score, recall_score, zero_one_loss
+
+✅ Funciones documentadas (0/31):
+  Ninguna
+
+⚠️ Funciones olvidadas / omitidas por el LLMs (31):
+  _check_set_wise_labels, _check_targets, _check_zero_division, _log_loss, _one_hot_encoding_binary_target, _one_hot_encoding_multiclass_target, _prf_divide, _validate_binary_probabilistic_prediction, _validate_multiclass_probabilistic_prediction, _warn_prf, accuracy_score, balanced_accuracy_score, brier_score_loss, class_likelihood_ratios, classification_report, cohen_kappa_score, confusion_matrix, d2_brier_score, d2_log_loss_score, f1_score, fbeta_score, hamming_loss, hinge_loss, jaccard_score, log_loss, matthews_corrcoef, multilabel_confusion_matrix, precision_recall_fscore_support, precision_score, recall_score, zero_one_loss
+
+🚨 Posibles alucinaciones detectadas (0):
+  (Nombres referenciados en texto como `fn()` que no existen en el código)
+  Ninguna alucinación detectada
+
+--------------------------------------------------
+📊 Tasa de cobertura estructural: 0.0%
+--------------------------------------------------

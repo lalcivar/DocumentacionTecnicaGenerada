@@ -1,0 +1,5 @@
+﻿Modelo,"Latencia, media ± DE (s)",Mediana (s),P95 (s),Tokens de entrada (media),Tokens de salida (media),Costo estimado por solicitud (USD)
+Anthropic - Claude,"57,79 ± 100,65","0,00","241,52",12 180,6 195,"0,06153"
+Google - Gemini,"33,51 ± 53,86","0,00","131,18",8 700,3 694,"0,03956"
+Meta - Llama,"29,37 ± 31,21","21,55","85,65",8 453,4 902,"0,04632"
+OpenAI - ChatGPT,"9,39 ± 12,81","0,00","31,23",7 465,1 289,"0,02266"

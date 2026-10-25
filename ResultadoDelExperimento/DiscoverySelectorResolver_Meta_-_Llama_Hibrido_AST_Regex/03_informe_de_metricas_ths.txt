@@ -1,0 +1,20 @@
+=============================================================
+ AUDITORÍA DE ESTRUCTURA Y ALUCINACIONES EN LENGUAJE: JAVA
+=============================================================
+
+• Funciones detectadas en el código (4):
+  ClassSelectorResolver, IsSuiteClass, discoverSuites, resolveSelectors
+
+✅ Funciones documentadas (4/4):
+  ClassSelectorResolver, IsSuiteClass, discoverSuites, resolveSelectors
+
+⚠️ Funciones olvidadas / omitidas por el LLMs (0):
+  Ninguna (Cobertura 100%)
+
+🚨 Posibles alucinaciones detectadas (3):
+  (Nombres referenciados en texto como `fn()` que no existen en el código)
+  DiscoverySelectorResolver, discover, getChildren
+
+--------------------------------------------------
+📊 Tasa de cobertura estructural: 100.0%
+--------------------------------------------------

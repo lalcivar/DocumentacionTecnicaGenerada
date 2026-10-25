@@ -1,0 +1,279 @@
+================================================================================
+                     Informe de evaluación de métricas de PNL
+================================================================================
+• Modelo evaluado          : Google - Gemini
+• Tiempo de la evaluación  : 2026-10-11 12:16:19
+--------------------------------------------------------------------------------
+1. Metrica de superpocision lexica (BLEU)
+   - BLEU Score            : 0.00%
+
+2. Puntuaciones ROUGE (N-Grams / Subsecuencia común más larga)
+   - ROUGE-1 (Unigrams)    : 6.74%
+   - ROUGE-2 (Bigrams)     : 0.00%
+   - ROUGE-L (LCS)         : 5.03%
+
+3. Evaluación semántica profunda (BERTScore)
+   - Precision (P)         : 57.68%
+   - Recall (R)            : 55.45%
+   - BERTScore F1-Score    : 56.54%
+--------------------------------------------------------------------------------
+4. Referencia humana usada
+--------------------------------------------------------------------------------
+Tests "failable" interfaces defined in this package.
+
+Test that asPredicate(FailableBiPredicate) is converted to -> BiPredicate
+
+Test that asPredicate(FailablePredicate) is converted to -> Predicate
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+
+Tests that our failable interface is properly defined to throw any exception using the top level generic types
+Object and Throwable.
+
+Tests that our failable interface is properly defined to throw any exception using String and IOExceptions as
+generic test types.
+================================================================================

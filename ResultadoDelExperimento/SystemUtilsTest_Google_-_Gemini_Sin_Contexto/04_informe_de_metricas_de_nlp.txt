@@ -1,0 +1,49 @@
+================================================================================
+                     Informe de evaluación de métricas de PNL
+================================================================================
+• Modelo evaluado          : Google - Gemini
+• Tiempo de la evaluación  : 2026-10-11 13:09:32
+--------------------------------------------------------------------------------
+1. Metrica de superpocision lexica (BLEU)
+   - BLEU Score            : 0.00%
+
+2. Puntuaciones ROUGE (N-Grams / Subsecuencia común más larga)
+   - ROUGE-1 (Unigrams)    : 3.72%
+   - ROUGE-2 (Bigrams)     : 1.07%
+   - ROUGE-L (LCS)         : 3.72%
+
+3. Evaluación semántica profunda (BERTScore)
+   - Precision (P)         : 60.55%
+   - Recall (R)            : 57.97%
+   - BERTScore F1-Score    : 59.23%
+--------------------------------------------------------------------------------
+4. Referencia humana usada
+--------------------------------------------------------------------------------
+Tests {@link SystemUtils}.
+
+Only limited testing can be performed.
+
+Returns the value of the SystemUtils.IS_JAVA_X field for the versions >= 9.
+
+Returns the last supported version with the SystemUtils.IS_JAVA_X fields.
+
+Assumes no security manager exists.
+
+Assumes no security manager exists.
+
+Assumes no security manager exists.
+
+Assumes no security manager exists.
+
+Assumes no security manager exists.
+
+Assumes no security manager exists.
+
+Assumes no security manager exists.
+
+Assumes no security manager exists.
+
+Assumes no security manager exists.
+
+Assumes no security manager exists.
+================================================================================

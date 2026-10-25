@@ -1,0 +1,30 @@
+================================================================================
+                     Informe de evaluación de métricas de PNL
+================================================================================
+• Modelo evaluado          : Google - Gemini
+• Tiempo de la evaluación  : 2026-10-11 13:55:28
+--------------------------------------------------------------------------------
+1. Metrica de superpocision lexica (BLEU)
+   - BLEU Score            : 0.00%
+
+2. Puntuaciones ROUGE (N-Grams / Subsecuencia común más larga)
+   - ROUGE-1 (Unigrams)    : 2.06%
+   - ROUGE-2 (Bigrams)     : 0.00%
+   - ROUGE-L (LCS)         : 1.59%
+
+3. Evaluación semántica profunda (BERTScore)
+   - Precision (P)         : 62.48%
+   - Recall (R)            : 56.98%
+   - BERTScore F1-Score    : 59.60%
+--------------------------------------------------------------------------------
+4. Referencia humana usada
+--------------------------------------------------------------------------------
+[test_provide_automatic_options_attr_disable]: Automatic options can be disabled by the view func attribute.
+
+[test_provide_automatic_options_attr_enable]: When default automatic options is disabled in config, it can still be
+enabled by the view function attribute.
+
+[test_provide_automatic_options_arg_disable]: Automatic options can be disabled by the route argument.
+
+[test_provide_automatic_options_method_disable]: Automatic options is ignored if the route handles options.
+================================================================================

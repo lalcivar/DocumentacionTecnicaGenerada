@@ -1,0 +1,20 @@
+=============================================================
+ AUDITORÍA DE ESTRUCTURA Y ALUCINACIONES EN LENGUAJE: PYTHON
+=============================================================
+
+• Funciones detectadas en el código (30):
+  __init__, _called_with_wrong_args, _env_file_callback, _load_plugin_commands, _path_is_ancestor, _set_app, _set_debug, _validate_key, app, command, convert, decorator, find_app_by_string, find_best_app, get_command, get_version, group, list_commands, load_app, load_dotenv, locate_app, main, make_context, parse_args, prepare_import, routes_command, run_command, shell_command, show_server_banner, with_appcontext
+
+✅ Funciones documentadas (30/30):
+  __init__, _called_with_wrong_args, _env_file_callback, _load_plugin_commands, _path_is_ancestor, _set_app, _set_debug, _validate_key, app, command, convert, decorator, find_app_by_string, find_best_app, get_command, get_version, group, list_commands, load_app, load_dotenv, locate_app, main, make_context, parse_args, prepare_import, routes_command, run_command, shell_command, show_server_banner, with_appcontext
+
+⚠️ Funciones olvidadas / omitidas por el LLMs (0):
+  Ninguna (Cobertura 100%)
+
+🚨 Posibles alucinaciones detectadas (0):
+  (Nombres referenciados en texto como `fn()` que no existen en el código)
+  Ninguna alucinación detectada
+
+--------------------------------------------------
+📊 Tasa de cobertura estructural: 100.0%
+--------------------------------------------------
